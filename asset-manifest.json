@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/english_teacher/static/css/main.69172c78.css",
+    "main.js": "/english_teacher/static/js/main.4f5ee81f.js",
+    "static/js/453.984d71f5.chunk.js": "/english_teacher/static/js/453.984d71f5.chunk.js",
+    "static/media/2024-07-27_04h17_34.png": "/english_teacher/static/media/2024-07-27_04h17_34.0b7306fd77b4534fe0ec.png",
+    "static/media/jpg": "/english_teacher/static/media/5843671063886676137.edf17ff0ac8c9a34b8e1.jpg",
+    "static/media/2.webp": "/english_teacher/static/media/2.e1d1c67241150846b9f0.webp",
+    "static/media/4.webp": "/english_teacher/static/media/4.2032d9d02c189628704f.webp",
+    "static/media/1.webp": "/english_teacher/static/media/1.08dd057a4b15ff87a8c1.webp",
+    "static/media/3.webp": "/english_teacher/static/media/3.0e342817549b701a36b6.webp",
+    "index.html": "/english_teacher/index.html",
+    "main.69172c78.css.map": "/english_teacher/static/css/main.69172c78.css.map",
+    "main.4f5ee81f.js.map": "/english_teacher/static/js/main.4f5ee81f.js.map",
+    "453.984d71f5.chunk.js.map": "/english_teacher/static/js/453.984d71f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69172c78.css",
+    "static/js/main.4f5ee81f.js"
+  ]
+}
