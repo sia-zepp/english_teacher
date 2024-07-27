@@ -1,0 +1,76 @@
+.about {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.about h1 {
+  font-size: 2.5em;
+  color: #8a5a44;
+  margin-bottom: 20px;
+}
+
+.about-image-container {
+  position: relative; /* Make the container relative */
+  display: inline-block;
+}
+
+.about-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 68px;
+}
+
+/* Heart shape styling */
+.decorative-heart {
+  position: absolute; /* Position it absolutely within the container */
+  top: 0px; /* Adjust as needed */
+  left: -20px; /* Adjust as needed */
+  width: 100px;
+  height: 90px;
+  animation: beat 1s infinite; /* Apply the heart beating animation */
+}
+
+.decorative-heart::before, .decorative-heart::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  background: red;
+}
+
+.decorative-heart::before {
+  top: 0;
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.decorative-heart::after {
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+/* Define keyframes for heart beating animation */
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25%, 75% {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    display: none;
+  }
+}
+
+.tupik {
+  border-left: #8a5a44;
+  color: blue;
+}

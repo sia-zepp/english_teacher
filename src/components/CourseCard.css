@@ -1,0 +1,84 @@
+/* src/components/CourseCard.css */
+.timeline-step {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 50px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -30px; /* Adjusted to align with the timeline line */
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d4af87;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content .card-title {
+  font-size: 1.5em;
+  color: #8a5a44;
+  margin-bottom: 10px;
+}
+
+.timeline-content .card-text {
+  font-size: 1em;
+  color: #555;
+  margin: 0;
+}
+
+.clickable {
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+}
+
+.clickable:hover {
+  color: #8a5a44;
+  transform: scale(1.02);
+  transition: transform 0.6 ease-in-out;
+}
+
+/* Hover effect */
+.timeline-step:hover .timeline-content {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .timeline-step {
+    padding-left: 20px;
+  }
+
+  .timeline-icon {
+    left: 7px; /* Adjusted to align with the timeline line */
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    font-size: 1em;
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+
+  .timeline-content .card-title {
+    font-size: 1.2em;
+  }
+
+  .timeline-content .card-text {
+    font-size: 0.9em;
+  }
+}

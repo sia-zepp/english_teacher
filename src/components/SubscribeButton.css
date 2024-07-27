@@ -1,0 +1,28 @@
+.btn {
+  background-color: #ffdf2a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  position: relative;
+  margin-top: 16px; /* Adjust top margin */
+  margin-bottom: 16px; /* Adjust bottom margin */
+}
+
+.btn:hover {
+  background-color: #ffa000;
+  box-shadow: 0 2px 4px rgb(79, 77, 75);
+  transform: scale(1.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-description-footer {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px; /* Add padding to ensure spacing around button */
+  display: flex; /* Flexbox to center the button */
+  justify-content: center; /* Center the button */
+}

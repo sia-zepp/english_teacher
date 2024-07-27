@@ -1,0 +1,17 @@
+/* src/components/Questions.css */
+.questions {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.questions h2 {
+  margin-bottom: 30px;
+}
+
+.question-item {
+  margin-bottom: 20px;
+}
+
+.question-item h4 {
+  margin-bottom: 10px;
+}

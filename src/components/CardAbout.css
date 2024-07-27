@@ -1,0 +1,22 @@
+.card-about {
+  margin-bottom: 20px; /* Add some space between the cards */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for a nicer look */
+  height: 150px; /* Set a fixed height for all cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.card-body {
+  padding: 20px; /* Add some padding to the card body */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  font-size: 1em; /* Adjust the font size as needed */
+  color: #555; /* Adjust the text color as needed */
+  text-align: center; /* Center the text */
+}
